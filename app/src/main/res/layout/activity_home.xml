@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Add the ImageView for your app logo -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="305dp"
+        android:layout_height="223dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/splash_logo" />
+
+    <!-- Add the TextView for the user name -->
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome "
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_above="@+id/buttonsLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Add the LinearLayout for the buttons -->
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp">
+
+        <!-- Add the buttons here -->
+        <Button
+            android:id="@+id/startExamButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Exam"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/viewResultsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Results"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/practiceExamButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Practice Exam"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/studyMaterialButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Study Material"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/settingsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Questions"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/helpButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+

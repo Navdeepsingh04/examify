@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Study Material"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="16dp" />
+
+        <!-- Android Development -->
+        <TextView
+            android:id="@+id/android_tutorial_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Development"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/android_tutorial_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the study material for Android development."
+            android:textSize="16sp"
+            android:padding="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c4c4c4" />
+
+        <!-- Web Development -->
+        <TextView
+            android:id="@+id/webdev_tutorial_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Web Development"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/webdev_tutorial_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the study material for web development."
+            android:textSize="16sp"
+            android:padding="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c4c4c4" />
+
+        <!-- Machine Learning -->
+        <TextView
+            android:id="@+id/ml_tutorial_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Machine Learning"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/ml_tutorial_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the study material for machine learning."
+            android:textSize="16sp"
+            android:padding="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c4c4c4" />
+
+        <!-- Human Resource Management -->
+        <TextView
+            android:id="@+id/hrm_tutorial_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Human Resource Management"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/hrm_tutorial_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the study material for human resource management"
+            android:textSize="16dp"
+            android:padding="16dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c4c4c4"/>
+
+        <!-- Cyber Security  -->
+        <TextView
+            android:id="@+id/cs_tutorial_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cyber Security"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="16dp"/>
+
+        <TextView
+            android:id="@+id/cs_tutorial_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is study material for cyber security"
+            android:textSize="16dp"
+            android:padding="16dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c4c4c4"/>
+
+    </LinearLayout>
+
+</ScrollView>

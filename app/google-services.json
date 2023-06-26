@@ -1,0 +1,39 @@
+{
+"project_info": {
+"project_number": "977313428029",
+"project_id": "examify-a4543",
+"storage_bucket": "examify-a4543.appspot.com"
+},
+"client": [
+{
+"client_info": {
+"mobilesdk_app_id": "1:977313428029:android:b84c473eab8b02bb6a3054",
+"android_client_info": {
+"package_name": "com.example.examify"
+}
+},
+"oauth_client": [
+{
+"client_id": "977313428029-fcne8066dh9rv0s5j33elfid810krn21.apps.googleusercontent.com",
+"client_type": 3
+}
+],
+"api_key": [
+{
+"current_key": "AIzaSyB5ETTzyhBD1_iS8IO9yKQtAlNJcmpTsC4"
+}
+],
+"services": {
+"appinvite_service": {
+"other_platform_oauth_client": [
+{
+"client_id": "977313428029-fcne8066dh9rv0s5j33elfid810krn21.apps.googleusercontent.com",
+"client_type": 3
+}
+]
+}
+}
+}
+],
+"configuration_version": "1"
+}

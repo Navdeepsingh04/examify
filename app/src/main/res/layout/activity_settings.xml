@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/question_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your question here"/>
+
+    <EditText
+        android:id="@+id/option_a_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_edit_text"
+        android:hint="Option A"/>
+
+    <EditText
+        android:id="@+id/option_b_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/option_a_edit_text"
+        android:hint="Option B"/>
+
+    <EditText
+        android:id="@+id/option_c_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/option_b_edit_text"
+        android:hint="Option C"/>
+
+    <EditText
+        android:id="@+id/option_d_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/option_c_edit_text"
+        android:hint="Option D"/>
+
+    <Spinner
+        android:id="@+id/correct_answer_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/option_d_edit_text"
+        android:entries="@array/answer_choices"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/correct_answer_spinner"
+        android:text="Submit"/>
+
+</RelativeLayout>

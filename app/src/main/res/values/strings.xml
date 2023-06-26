@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Examify</string>
+    <string-array name="answer_choices">
+        <item>Option A</item>
+        <item>Option B</item>
+        <item>Option C</item>
+        <item>Option D</item>
+    </string-array>
+
+
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
+
+
+
+
+
+
